@@ -1,0 +1,105 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0;
+}
+
+.pageLinks {
+    background-color: lightpink;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+}
+
+.pageLinks ul {
+    list-style-type: none;
+}
+
+.pageLinks li {
+    display: inline;
+    float: right;
+    background-color: white;
+    padding: 20px;
+    margin: 10px;
+    font-size: 18px;
+    font-family: "Andale Mono";
+    text-transform: uppercase;
+} 
+
+.pageLinks li a {
+    display: block;
+    text-align: center;
+
+}
+
+a, a:visited {
+    text-decoration: none;
+    color: palevioletred;
+}
+
+.nameCard {
+    background-color: rgb(124, 103, 106);
+    height: 700px;
+    padding: 10px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.nameCardInfo {
+    background-color: lightgrey;
+    padding: 20px;
+    margin: 10px;
+}
+
+#nameCardText {
+    height: 200px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#nameCardLinks {
+    list-style-type: none;
+}
+
+.mainSection {
+    background-color: rosybrown;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.mainSectionEl {
+    background-color: lightgray;
+}
+
+#skills {
+    background-color: rgba(80, 33, 33, 0.76);
+    display: flex;
+    justify-content: space-around;
+}
+
+#projects {
+    background-color: rgba(80, 33, 33, 0.76);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.projectCard {
+    background-color: lightpink;
+    margin: 5px;
+}
+
+.afterProjectPics {
+    width: 200px;
+    height: 200px;
+
+}
