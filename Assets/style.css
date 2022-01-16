@@ -29,7 +29,6 @@
 .pageLinks li a {
     display: block;
     text-align: center;
-
 }
 
 a, a:visited {
@@ -77,25 +76,33 @@ a, a:visited {
 }
 
 .mainSectionEl {
-    background-color: lightgray;
+    background-color: rgba(80, 33, 33, 0.76);
+}
+
+#aboutMe {
+    height: 300px;
+    text-align: center;
 }
 
 #skills {
-    background-color: rgba(80, 33, 33, 0.76);
+    height: 350px;
     display: flex;
     justify-content: space-around;
+    align-items: center;
 }
 
 #projects {
-    background-color: rgba(80, 33, 33, 0.76);
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
 }
 
 .projectCard {
     background-color: lightpink;
+    width: 75%;
     margin: 5px;
+    text-align: center;
 }
 
 .afterProjectPics {
