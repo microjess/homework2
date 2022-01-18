@@ -6,18 +6,17 @@
 
 .pageLinks {
     background-color: lightpink;
-    display: flex;
-    flex-direction: row;
-    justify-content: right;
 }
 
 .pageLinks ul {
     list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+
 }
 
 .pageLinks li {
-    display: inline;
-    float: right;
     background-color: white;
     padding: 20px;
     margin: 10px;
